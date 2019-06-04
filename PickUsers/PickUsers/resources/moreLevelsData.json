@@ -1,0 +1,438 @@
+
+{
+    "rows":[
+            {
+            "id": "0512001",
+            "parentID":"0",
+            "name": "总经理",
+            "type":"O",
+            "members":[
+                       {
+                       "id": "0512001001",
+                       "parentID":"0512001",
+                       "name": "王经理",
+                       "type":"U",
+                       "department":"总经理"
+                       },
+                       {
+                       "id": "0512001002",
+                       "parentID":"0512001",
+                       "name": "总经理秘书",
+                       "type":"O",
+                       "members":[
+                                  {
+                                  "id": "0512001002001",
+                                  "parentID":"0512001002",
+                                  "name": "秘书甲",
+                                  "type":"U",
+                                  "department":"总经理秘书"
+                                  },
+                                  {
+                                  "id": "0512001002002",
+                                  "parentID":"0512001002",
+                                  "name": "秘书乙",
+                                  "type":"U",
+                                  "department":"总经理秘书"
+                                  }
+                       ]
+                       }
+                       ]
+            },
+            {
+            "id": "0512002",
+            "parentID":"0",
+            "name": "人事行政部",
+            "type":"O",
+            "members":[
+                       {
+                       "id": "0512002001",
+                       "parentID":"0512002",
+                       "name": "谭经理",
+                       "type":"U",
+                       "department":"人事行政部"
+                       },
+                       {
+                       "id": "0512002002",
+                       "parentID":"0512002",
+                       "name": "助理甲",
+                       "type":"U",
+                       "department":"人事行政部"
+                       },
+                       {
+                       "id": "0512002003",
+                       "parentID":"0512002",
+                       "name": "助理乙",
+                       "type":"U",
+                       "department":"人事行政部"
+                       },
+                       {
+                       "id": "0512002004",
+                       "parentID":"0512002",
+                       "name": "助理丙",
+                       "type":"U",
+                       "department":"人事行政部"
+                       }
+                       ]
+            },
+            {
+            "id": "0512003",
+            "parentID":"0",
+            "name": "市场部",
+            "type":"O",
+            "members":[
+                       {
+                       "id": "0512003001",
+                       "parentID":"0512003",
+                       "name": "华北大区",
+                       "type":"O",
+                       "members":[
+                                  {
+                                  "id": "0512003001001",
+                                  "parentID":"0512003001",
+                                  "name": "总经理",
+                                  "type":"O",
+                                  "members":[{
+                                             "id": "0512003001001001",
+                                             "parentID":"0512003001001",
+                                             "name": "赵经理",
+                                             "type":"U",
+                                             "department":"总经理"
+                                             }]
+                                  },
+                                  {
+                                  "id": "0512003001002",
+                                  "parentID":"0512003001",
+                                  "name": "秘书室",
+                                  "type":"O",
+                                  "members":[{
+                                             "id": "0512003001002001",
+                                             "parentID":"0512003001002",
+                                             "name": "秘书甲",
+                                             "type":"U",
+                                             "department":"秘书室"
+                                             },
+                                             {
+                                             "id": "0512003001002002",
+                                             "parentID":"0512003001002",
+                                             "name": "秘书乙",
+                                             "type":"U",
+                                             "department":"秘书室"
+                                             }]
+                                  },
+                                  {
+                                  "id": "0512003001003",
+                                  "parentID":"0512003001",
+                                  "name": "业务处",
+                                  "type":"O",
+                                  "members":[{
+                                             "id": "0512003001003001",
+                                             "parentID":"0512003001003",
+                                             "name": "业务甲",
+                                             "type":"U",
+                                             "department":"业务处"
+                                             },
+                                             {
+                                             "id": "0512003001003002",
+                                             "parentID":"0512003001003",
+                                             "name": "业务乙",
+                                             "type":"U",
+                                             "department":"业务处"
+                                             }]
+                                  }
+                       ]
+                       },{
+                       "id": "0512003002",
+                       "parentID":"0512003",
+                       "name": "华中大区",
+                       "type":"O",
+                       "members":[
+                                  {
+                                  "id": "0512003002001",
+                                  "parentID":"0512003002",
+                                  "name": "总经理",
+                                  "type":"O",
+                                  "members":[{
+                                             "id": "0512003002001001",
+                                             "parentID":"0512003002001",
+                                             "name": "毛经理",
+                                             "type":"U",
+                                             "department":"总经理"
+                                             }]
+                                  },
+                                  {
+                                  "id": "0512003002002",
+                                  "parentID":"0512003002",
+                                  "name": "秘书室",
+                                  "type":"O",
+                                  "members":[{
+                                             "id": "0512003002002001",
+                                             "parentID":"0512003002002",
+                                             "name": "秘书丙",
+                                             "type":"U",
+                                             "department":"秘书室"
+                                             },
+                                             {
+                                             "id": "0512003001002002",
+                                             "parentID":"0512003001002",
+                                             "name": "秘书丁",
+                                             "type":"U",
+                                             "department":"秘书室"
+                                             }]
+                                  },
+                                  {
+                                  "id": "0512003002003",
+                                  "parentID":"0512003002",
+                                  "name": "业务处",
+                                  "type":"O",
+                                  "members":[{
+                                             "id": "0512003002003001",
+                                             "parentID":"0512003002003",
+                                             "name": "业务丙",
+                                             "type":"U",
+                                             "department":"业务处"
+                                             },
+                                             {
+                                             "id": "0512003002003002",
+                                             "parentID":"0512003002003",
+                                             "name": "业务丁",
+                                             "type":"U",
+                                             "department":"业务处"
+                                             }]
+                                  }
+                                  ]
+                       },{
+                       "id": "0512003003",
+                       "parentID":"0512003",
+                       "name": "华东大区",
+                       "type":"O",
+                       "members":[
+                                  {
+                                  "id": "0512003003001",
+                                  "parentID":"0512003003",
+                                  "name": "总经理",
+                                  "type":"O",
+                                  "members":[{
+                                             "id": "0512003003001001",
+                                             "parentID":"0512003003001",
+                                             "name": "邓经理",
+                                             "type":"U",
+                                             "department":"总经理"
+                                             }]
+                                  },
+                                  {
+                                  "id": "0512003003002",
+                                  "parentID":"0512003003",
+                                  "name": "秘书室",
+                                  "type":"O",
+                                  "members":[{
+                                             "id": "0512003003002001",
+                                             "parentID":"0512003003002",
+                                             "name": "秘书戊",
+                                             "type":"U",
+                                             "department":"秘书室"
+                                             },
+                                             {
+                                             "id": "0512003003002002",
+                                             "parentID":"0512003003002",
+                                             "name": "秘书己",
+                                             "type":"U",
+                                             "department":"秘书室"
+                                             }]
+                                  },
+                                  {
+                                  "id": "0512003003003",
+                                  "parentID":"0512003003",
+                                  "name": "业务处",
+                                  "type":"O",
+                                  "members":[{
+                                             "id": "0512003003003001",
+                                             "parentID":"0512003003003",
+                                             "name": "业务戊",
+                                             "type":"U",
+                                             "department":"业务处"
+                                             },
+                                             {
+                                             "id": "0512003003003002",
+                                             "parentID":"0512003003003",
+                                             "name": "业务己",
+                                             "type":"U",
+                                             "department":"业务处"
+                                             }]
+                                  }
+                                  ]
+                       }
+                       ]
+            },
+            {
+            "id": "0512004",
+            "parentID":"0",
+            "name": "销售部",
+            "type":"O",
+            "members":[
+                       {
+                       "id": "0512004001",
+                       "parentID":"0512004",
+                       "name": "主管人",
+                       "type":"U",
+                       "department":"销售部"
+                       },{
+                       "id": "0512004002",
+                       "parentID":"0512004",
+                       "name": "助理甲",
+                       "type":"U",
+                       "department":"销售部"
+                       },{
+                       "id": "0512004003",
+                       "parentID":"0512004",
+                       "name": "助理乙",
+                       "type":"U",
+                       "department":"销售部"
+                       },{
+                       "id": "0512004004",
+                       "parentID":"0512004",
+                       "name": "业务甲",
+                       "type":"U",
+                       "department":"销售部"
+                       },{
+                       "id": "0512004005",
+                       "parentID":"0512004",
+                       "name": "业务乙",
+                       "type":"U",
+                       "department":"销售部"
+                       }
+                       ]
+            },
+            {
+            "id": "0512005",
+            "parentID":"0",
+            "name": "研发部",
+            "type":"O",
+            "members":[
+                       {
+                       "id": "0512005001",
+                       "parentID":"0512005",
+                       "name": "主管人",
+                       "type":"U",
+                       "department":"研发部"
+                       },{
+                       "id": "0512005002",
+                       "parentID":"0512005",
+                       "name": "iOS甲",
+                       "type":"U",
+                       "department":"研发部"
+                       },{
+                       "id": "0512005003",
+                       "parentID":"0512005",
+                       "name": "iOS乙",
+                       "type":"U",
+                       "department":"研发部"
+                       },{
+                       "id": "0512005004",
+                       "parentID":"0512005",
+                       "name": "安卓甲",
+                       "type":"U",
+                       "department":"研发部"
+                       },{
+                       "id": "0512005005",
+                       "parentID":"0512005",
+                       "name": "安卓乙",
+                       "type":"U",
+                       "department":"研发部"
+                       },{
+                       "id": "0512005006",
+                       "parentID":"0512005",
+                       "name": "后端甲",
+                       "type":"U",
+                       "department":"研发部"
+                       },{
+                       "id": "0512005007",
+                       "parentID":"0512005",
+                       "name": "后端乙",
+                       "type":"U",
+                       "department":"研发部"
+                       }
+                       ]
+            },
+            {
+            "id": "0512006",
+            "parentID":"0",
+            "name": "运维部",
+            "type":"O",
+            "members":[
+                       {
+                       "id": "0512006001",
+                       "parentID":"0512006",
+                       "name": "主管人",
+                       "type":"U",
+                       "department":"运维部"
+                       },{
+                       "id": "0512006002",
+                       "parentID":"0512006",
+                       "name": "运维甲",
+                       "type":"U",
+                       "department":"运维部"
+                       },{
+                       "id": "0512006003",
+                       "parentID":"0512006",
+                       "name": "运维乙",
+                       "type":"U",
+                       "department":"运维部"
+                       }
+                       ]
+            },
+            {
+            "id": "0512007",
+            "parentID":"0",
+            "name": "测试部",
+            "type":"O",
+            "members":[
+                       {
+                       "id": "0512007001",
+                       "parentID":"0512007",
+                       "name": "主管人",
+                       "type":"U",
+                       "department":"测试部"
+                       },{
+                       "id": "0512007002",
+                       "parentID":"0512007",
+                       "name": "测试甲",
+                       "type":"U",
+                       "department":"测试部"
+                       },{
+                       "id": "0512007003",
+                       "parentID":"0512007",
+                       "name": "测试乙",
+                       "type":"U",
+                       "department":"测试部"
+                       }
+                       ]
+            },
+            {
+            "id": "0512008",
+            "parentID":"0",
+            "name": "设计部",
+            "type":"O",
+            "members":[
+                       {
+                       "id": "0512008001",
+                       "parentID":"0512008",
+                       "name": "主管人",
+                       "type":"U",
+                       "department":"设计部"
+                       },{
+                       "id": "0512008002",
+                       "parentID":"0512008",
+                       "name": "设计甲",
+                       "type":"U",
+                       "department":"设计部"
+                       },{
+                       "id": "0512008003",
+                       "parentID":"0512008",
+                       "name": "设计乙",
+                       "type":"U",
+                       "department":"设计部"
+                       }
+                       ]
+            }
+            ]
+}
